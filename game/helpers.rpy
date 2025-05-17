@@ -1,0 +1,55 @@
+﻿# helpers.rpy
+
+label hide_all_characters:
+    # Amari
+    hide char_a_idle
+    hide char_a_shadow
+    hide char_a_shadow_speak
+    hide char_a_speak
+    # Cael
+    hide char_c_idle
+    hide char_c_shadow
+    hide char_c_shadow_speak
+    hide char_c_speak
+    # Iven
+    hide char_i_idle
+    hide char_i_shadow
+    hide char_i_shadow_speak
+    hide char_i_speak
+    # Lune
+    hide char_l_idle
+    hide char_l_shadow
+    hide char_l_shadow_speak
+    hide char_l_speak
+    # Maika
+    hide char_m_idle
+    hide char_m_shadow
+    hide char_m_shadow_speak
+    hide char_m_speak
+    # Niko
+    hide char_n_idle
+    hide char_n_shadow
+    hide char_n_shadow_speak
+    hide char_n_speak
+    # Renn
+    hide char_r_idle
+    hide char_r_shadow
+    hide char_r_shadow_speak
+    hide char_r_speak
+    # Suki
+    hide char_s_idle
+    hide char_s_shadow
+    hide char_s_shadow_speak
+    hide char_s_speak
+    # Tomo
+    hide char_t_idle
+    hide char_t_shadow
+    hide char_t_shadow_speak
+    hide char_t_speak
+    # Veyla
+    hide char_v_idle
+    hide char_v_shadow
+    hide char_v_shadow_speak
+    hide char_v_speak
+
+    return

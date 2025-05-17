@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 12, in script call
+    call check_ending
+  File "game/script.rpy", line 12, in script call
+    call check_ending
+ScriptError: could not find label 'check_ending'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 12, in script call
+    call check_ending
+  File "C:\Users\User\Downloads\renpy-8.3.6-sdk\renpy\ast.py", line 1427, in execute
+    rv = renpy.game.context().call(label, return_site=self.next.name)
+  File "game/script.rpy", line 12, in script call
+    call check_ending
+  File "C:\Users\User\Downloads\renpy-8.3.6-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'check_ending'.
+
+Windows-10-10.0.26100 AMD64
+Ren'Py 8.3.6.25022803
+Fragments 1.0
+Fri May 16 20:51:54 2025
